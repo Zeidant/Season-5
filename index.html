@@ -1,140 +1,93 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evolution</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://raw.githubusercontent.com/Zeidant/Season-4/main/assets/img/icon.ico"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            'Montserrat': ['Montserrat'],
-            'Noto-Sans': ['"Noto Sans"'],
-            'Comforter-Brush': ['"Comforter Brush"']
-          }
-        }
-      }
-    }
-  </script>
-  
-</head>
-
-<body class="font-Noto-Sans">
-
-  
-  <!-- Header -->
-  <header class="w-full bg-[url('assets/img/wall.jpg')] bg-cover bg-bottom">  
-    <div class="w-full min-h-screen md:w-1/2 bg-gradient-to-b from-gray-900/90 to-gray-900/95 p-10 flex">
-      <div class="w-full text-center my-auto">
-        <h1 class="font-bold text-5xl font-Comforter-Brush text-amber-300 mb-10 md:text-right">Season 5 | Redención <!-- <span> XD</span> --> </h1>
-        <h6 class="font-Montserrat font-bold uppercase text-4xl md:text-5xl lg:text-6xl mb-14 md:-mr-20 text-white md:text-right">Coming <span class="text-white/70 md:-mr-20">soon</span></h6>
-
-        
-        <!-- Count down -->
-        <div class="w-full text-left flex mb-10">
-          <ul class="w-full flex place-content-center md:place-content-end gap-5 mx-auto text-gray-50">        
-            <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdD">00</div>
-              <p class="text-center text-xs mt-2">Días</p>
-            </li>
-
-            <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdH">00</div>
-              <p class="text-center text-xs mt-2">Horas</p>
-            </li>
-
-            <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdM">00</div>
-              <p class="text-center text-xs mt-2">Minutos</p>
-            </li>
-
-            <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdS">00</div>
-              <p class="text-center text-xs mt-2">Segundos</p>
-            </li>
-
-          </ul>
-        </div>
-
-        <!-- Content -->
-        <p class="text-base mb-10 text-gray-200 md:text-right">Un día decidí subir una canción, aquí las guardé. Cada una tiene un significado, un mensaje o simplemente una cita que me gustó :D</p>
-
-        <!-- Social media -->
-        <div class="w-full text-left flex">
-          <ul class="w-full flex place-content-center md:place-content-end gap-10 mx-auto text-gray-500">        
-
-            <li>
-              <a href="https://open.spotify.com/user/cae3c0h2nt2hvgrjyhj3cj6bs" class="text-lg hover:text-amber-500" target="_blank">
-                <i class="fab fa-spotify"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.instagram.com/anthonyez.31/" class="text-lg hover:text-amber-500" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-
-          </ul>
-        </div>
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-bar">
+        <i class="material-icons"></i>
+        <span>Season 4</span>
+        <i class="material-icons"></i>
       </div>
-    </div>   
-  </header>  
+      <div class="img-area">
+        <img src="" alt="" />
+      </div>
+      <div class="song-details">
+        <p class="name"></p>
+        <p class="artist"></p>
+      </div>
+      <div class="progress-area">
+        <div class="progress-bar">
+          <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="song-timer">
+          <span class="current-time">0:00</span>
+          <span class="max-duration">0:00</span>
+        </div>
+      </div>
+      <div class="controls">
+        <i id="repeat-plist" class="material-icons" title="Playlist looped"
+          >repeat</i
+        >
+        <i id="prev" class="material-icons">skip_previous</i>
+        <div class="play-pause">
+          <i class="material-icons play">play_arrow</i>
+        </div>
+        <i id="next" class="material-icons">skip_next</i>
+        <i id="more-music" class="material-icons">queue_music</i>
+      </div>
+      <div class="music-list">
+        <div class="header">
+          <div class="row">
+            <i class="list material-icons">queue_music</i>
+            <span>Music list</span>
+          </div>
+          <i id="close" class="material-icons">close</i>
+        </div>
+        <ul>
+          <!-- here li list are coming from js -->
+        </ul>
+      </div>
+    </div>
 
-  <script>
-    // Change the value of countDownEndDate to the day you want to end the count down
-    var countDownEndDate = "March 01, 2024 22:00:00";
-    
-    var endDate = new Date(countDownEndDate).getTime();
-    
-    var x = setInterval(function() {
-    
-      var timeNow = new Date().getTime();
-    
-      var timeLeft = endDate - timeNow;
-    
-      var days    = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-      var hours   = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-      if(days < 10) {
-        days = "0" + days;
-      }
-
-      if(hours < 10) {
-        hours = "0" + hours;
-      }
-
-      if(minutes < 10) {
-        minutes = "0" + minutes;
-      }
-
-      if(seconds < 10) {
-        seconds = "0" + seconds;
-      }
-    
-      if (timeLeft > 0) {
-        document.getElementById("cdD").innerHTML = days;
-        document.getElementById("cdH").innerHTML = hours;
-        document.getElementById("cdM").innerHTML = minutes;
-        document.getElementById("cdS").innerHTML = seconds;
-      }
-    }, 1000);
-  </script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
