@@ -11,10 +11,11 @@ const wrapper = document.querySelector('.wrapper'),
 	musicList = wrapper.querySelector('.music-list'),
 	moreMusicBtn = wrapper.querySelector('#more-music'),
 	closemoreMusic = musicList.querySelector('#close');
+const ulTag = wrapper.querySelector('ul');
 
 let allMusic = [];
 
-let musicIndex = 0;
+let musicIndex = 1;
 isMusicPaused = true;
 
 async function fetchSongList() {
@@ -31,34 +32,21 @@ async function fetchSongList() {
 }
 
 function renderMusicList() {
-	const ulTag = wrapper.querySelector('ul');
 	// let create li tags according to array length for list
 	for (let i = 0; i < allMusic.length; i++) {
 		//let's pass the song name, artist from the array
+		const id = `audio-${allMusic[i].src}`;
 		let liTag = `<li li-index="${i + 1}">
                 <div class="row">
                   <span>${allMusic[i].name}</span>
                   <p>${allMusic[i].artist}</p>
                 </div>
-                <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
-                <audio id="audio-${allMusic[i].src}" class="${allMusic[i].src}"></audio>
+                <audio id="${id}" class="${allMusic[i].src}"></audio>
               </li>`;
-		ulTag.insertAdjacentHTML('beforeend', liTag); //inserting the li inside ul tag
 
-		let liAudioDuartionTag = ulTag.querySelector(`#${allMusic[i].src}`);
-		let liAudioTag = ulTag.querySelector(`.${allMusic[i].src}`);
-		liAudioTag.addEventListener('loadeddata', () => {
-			let duration = liAudioTag.duration;
-			let totalMin = Math.floor(duration / 60);
-			let totalSec = Math.floor(duration % 60);
-			if (totalSec < 10) {
-				//if sec is less than 10 then add 0 before it
-				totalSec = `0${totalSec}`;
-			}
-			liAudioDuartionTag.innerText = `${totalMin}:${totalSec}`; //passing total duation of song
-			liAudioDuartionTag.setAttribute('t-duration', `${totalMin}:${totalSec}`); //adding t-duration attribute with total duration value
-		});
+		ulTag.insertAdjacentHTML('beforeend', liTag); //inserting the li inside ul tag
 	}
+	playingSong();
 }
 
 window.addEventListener('load', async () => {
@@ -232,14 +220,11 @@ function playingSong() {
 
 		if (allLiTag[j].classList.contains('playing')) {
 			allLiTag[j].classList.remove('playing');
-			let adDuration = audioTag.getAttribute('t-duration');
-			audioTag.innerText = adDuration;
 		}
 
 		//if the li tag index is equal to the musicIndex then add playing class in it
 		if (allLiTag[j].getAttribute('li-index') == musicIndex) {
 			allLiTag[j].classList.add('playing');
-			audioTag.innerText = 'Playing';
 		}
 
 		allLiTag[j].setAttribute('onclick', 'clicked(this)');
