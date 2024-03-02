@@ -1,6 +1,6 @@
 const allMusic = [
   {
-    "name": "Love Story",
+    "name": "1. Love Story",
     "artist": "Indila",
     "img": "music-1",
     "src": "music-1"
