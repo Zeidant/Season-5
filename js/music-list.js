@@ -17,6 +17,12 @@ const allMusic = [
 "img": "music-3",
 "src": "music-3"
 },
+{
+"name": "4. Something Real",
+"artist": "Post Malone",
+"img": "music-4",
+"src": "music-4"
+},
   ];
 
 export default allMusic;
