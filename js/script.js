@@ -15,7 +15,7 @@ const ulTag = wrapper.querySelector('ul');
 
 let allMusic = [];
 
-let musicIndex = 1;
+// let musicIndex = 1;
 isMusicPaused = true;
 
 async function fetchSongList() {
@@ -23,7 +23,7 @@ async function fetchSongList() {
 		const mod = await import('./music-list.js');
 		const list = mod.default;
 		allMusic = list;
-		// musicIndex = list.length;
+		musicIndex = list.length;
 		// musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 	} catch (error) {
 		// TODO: Add fallback in case something goes wrong when importing module
