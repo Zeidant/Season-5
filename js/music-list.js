@@ -10,13 +10,19 @@ const allMusic = [
   "artist": "cyber milk chan",
   "img": "music-2",
   "src": "music-2"
-}
+},
 {
 "name": "3. Maybe My Soulmate Died",
 "artist": "iamnotshane",
 "img": "music-3",
 "src": "music-3"
-}
+},
+{
+  "name": "4. Something Real",
+  "artist": "Post Malone",
+  "img": "music-4",
+  "src": "music-4"
+  },
   ];
 
 export default allMusic;
