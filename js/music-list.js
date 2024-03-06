@@ -30,7 +30,7 @@ const allMusic = [
   "src": "music-5"
   },
   {
-    "name": "Gemini",
+    "name": "6. Gemini",
     "artist": "Paco Versailles",
     "img": "music-6",
     "src": "music-6"
