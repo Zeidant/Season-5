@@ -23,6 +23,12 @@ const allMusic = [
 "img": "music-4",
 "src": "music-4"
 },
+{
+  "name": "5. Wishful Thinking",
+  "artist": "MOR",
+  "img": "music-5",
+  "src": "music-5"
+  },
   ];
 
 export default allMusic;
