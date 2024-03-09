@@ -41,6 +41,12 @@ const allMusic = [
     "img": "music-7",
     "src": "music-7"
   },
+  {
+    "name": "8. Different Kind of Lonely",
+    "artist": "Camp Kubrick",
+    "img": "music-8",
+    "src": "music-8"
+  },
   ];
 
 export default allMusic;
