@@ -47,6 +47,12 @@ const allMusic = [
     "img": "music-8",
     "src": "music-8"
   },
+  {
+    "name": "9. Libre",
+    "artist": "Ricardo Arjona",
+    "img": "music-9",
+    "src": "music-9"
+  },
   ];
 
 export default allMusic;
