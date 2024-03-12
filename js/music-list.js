@@ -59,6 +59,12 @@ const allMusic = [
     "img": "music-10",
     "src": "music-10"
   },
+  {
+    "name": "11. Never Is Enough",
+    "artist": "iann dior",
+    "img": "music-11",
+    "src": "music-11"
+  },
   ];
 
 export default allMusic;
