@@ -65,6 +65,12 @@ const allMusic = [
     "img": "music-11",
     "src": "music-11"
   },
+  {
+  "name": "12. Down In Atlanta",
+  "artist": "Pharrell Williams",
+  "img": "music-12",
+  "src": "music-12"
+},
   ];
 
 export default allMusic;
