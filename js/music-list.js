@@ -71,6 +71,12 @@ const allMusic = [
   "img": "music-12",
   "src": "music-12"
 },
+{
+  "name": "13. Enter Through The Sun",
+  "artist": "Young Empires",
+  "img": "music-13",
+  "src": "music-13"
+},
   ];
 
 export default allMusic;
