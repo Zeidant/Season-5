@@ -77,6 +77,12 @@ const allMusic = [
   "img": "music-13",
   "src": "music-13"
 },
+{
+  "name": "Do It Now",
+  "artist": "Syn Cole",
+  "img": "music-14",
+  "src": "music-14"
+},
   ];
 
 export default allMusic;
