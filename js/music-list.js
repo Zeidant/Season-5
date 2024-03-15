@@ -78,10 +78,16 @@ const allMusic = [
   "src": "music-13"
 },
 {
-  "name": "Do It Now",
+  "name": "14. Do It Now",
   "artist": "Syn Cole",
   "img": "music-14",
   "src": "music-14"
+},
+{
+  "name": "Agora Hills",
+  "artist": "Doja Cat",
+  "img": "music-15",
+  "src": "music-15"
 },
   ];
 
