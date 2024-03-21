@@ -113,6 +113,12 @@ const allMusic = [
   "img": "music-19",
   "src": "music-19"
 },
+{
+  "name": "20. One Of Your Girls",
+  "artist": "Troye Sivan",
+  "img": "music-20",
+  "src": "music-20"
+},
   ];
 
 export default allMusic;
