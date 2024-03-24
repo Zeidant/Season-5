@@ -125,6 +125,12 @@ const allMusic = [
   "img": "music-21",
   "src": "music-21"
 },
+{
+  "name": "22. new heartbreak",
+  "artist": "sad alex",
+  "img": "music-22",
+  "src": "music-22"
+},
   ];
 
 export default allMusic;
