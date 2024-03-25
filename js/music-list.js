@@ -137,6 +137,12 @@ const allMusic = [
   "img": "music-23",
   "src": "music-23"
 },
+{
+  "name": "24. Major Crimes",
+  "artist": "HEALTH",
+  "img": "music-24",
+  "src": "music-24"
+},
   ];
 
 export default allMusic;
