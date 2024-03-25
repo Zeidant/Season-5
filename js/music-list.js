@@ -143,6 +143,12 @@ const allMusic = [
   "img": "music-24",
   "src": "music-24"
 },
+{
+  "name": "25. When I'm Small",
+  "artist": "Phantogram",
+  "img": "music-25",
+  "src": "music-25"
+},
   ];
 
 export default allMusic;
