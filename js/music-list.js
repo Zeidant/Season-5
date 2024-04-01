@@ -167,6 +167,12 @@ const allMusic = [
   "img": "music-28",
   "src": "music-28"
 },
+{
+  "name": "29. Speed Drive",
+  "artist": "Charli XCX",
+  "img": "music-29",
+  "src": "music-29"
+},
   ];
 
 export default allMusic;
