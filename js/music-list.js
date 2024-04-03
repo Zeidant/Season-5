@@ -191,6 +191,12 @@ const allMusic = [
   "img": "music-32",
   "src": "music-32"
 },
+{
+  "name": "33. Goat",
+  "artist": "Thekidszn",
+  "img": "music-33",
+  "src": "music-33"
+},
   ];
 
 export default allMusic;
