@@ -209,6 +209,12 @@ const allMusic = [
   "img": "music-35",
   "src": "music-35"
 },
+{
+  "name": "36. Don't Go Insane",
+  "artist": "DPR IAN",
+  "img": "music-36",
+  "src": "music-36"
+},
   ];
 
 export default allMusic;
