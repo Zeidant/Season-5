@@ -215,6 +215,12 @@ const allMusic = [
   "img": "music-36",
   "src": "music-36"
 },
+{
+  "name": "37. Exosphere",
+  "artist": "Creo",
+  "img": "music-37",
+  "src": "music-37"
+},
   ];
 
 export default allMusic;
