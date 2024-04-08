@@ -221,6 +221,12 @@ const allMusic = [
   "img": "music-37",
   "src": "music-37"
 },
+{
+  "name": "30. We Kept the Lights On",
+  "artist": "Milo Greene",
+  "img": "music-38",
+  "src": "music-38"
+},
   ];
 
 export default allMusic;
