@@ -227,6 +227,12 @@ const allMusic = [
   "img": "music-38",
   "src": "music-38"
 },
+{
+  "name": "39. Shoreditch",
+  "artist": "Vrdnyn",
+  "img": "music-39",
+  "src": "music-39"
+},
   ];
 
 export default allMusic;
