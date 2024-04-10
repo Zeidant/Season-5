@@ -233,6 +233,12 @@ const allMusic = [
   "img": "music-39",
   "src": "music-39"
 },
+{
+  "name": "40. A Little Trauma Can Be Illuminating, And I'm Shining Like The Sun",
+  "artist": "$uicideboy$",
+  "img": "music-40",
+  "src": "music-40"
+},
   ];
 
 export default allMusic;
