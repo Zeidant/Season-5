@@ -251,6 +251,12 @@ const allMusic = [
   "img": "music-42",
   "src": "music-42"
 },
+{
+  "name": "43. Please Don't Change",
+  "artist": "Jung Kook",
+  "img": "music-43",
+  "src": "music-43"
+},
   ];
 
 export default allMusic;
