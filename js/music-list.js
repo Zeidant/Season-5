@@ -257,6 +257,12 @@ const allMusic = [
   "img": "music-43",
   "src": "music-43"
 },
+{
+  "name": "44. Lost in Silence",
+  "artist": "Marcus Skeen",
+  "img": "music-44",
+  "src": "music-44"
+},
   ];
 
 export default allMusic;
