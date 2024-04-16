@@ -263,6 +263,12 @@ const allMusic = [
   "img": "music-44",
   "src": "music-44"
 },
+{
+  "name": "45. TOO MUCH",
+  "artist": "The Kid LAROI",
+  "img": "music-45",
+  "src": "music-45"
+},
   ];
 
 export default allMusic;
