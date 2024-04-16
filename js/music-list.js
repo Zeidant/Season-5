@@ -269,6 +269,12 @@ const allMusic = [
   "img": "music-45",
   "src": "music-45"
 },
+{
+  "name": "46. Other Boys",
+  "artist": "Marshmello",
+  "img": "music-46",
+  "src": "music-46"
+},
   ];
 
 export default allMusic;
