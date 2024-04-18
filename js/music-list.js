@@ -275,6 +275,12 @@ const allMusic = [
   "img": "music-46",
   "src": "music-46"
 },
+{
+  "name": "47. I Wish I Wasn't Me",
+  "artist": "Eric Nam",
+  "img": "music-47",
+  "src": "music-47"
+},
   ];
 
 export default allMusic;
