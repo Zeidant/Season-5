@@ -293,6 +293,12 @@ const allMusic = [
   "img": "music-49",
   "src": "music-49"
 },
+{
+  "name": "50. Stuttering",
+  "artist": "Jack & Jack",
+  "img": "music-50",
+  "src": "music-50"
+},
   ];
 
 export default allMusic;
