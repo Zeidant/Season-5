@@ -287,6 +287,12 @@ const allMusic = [
   "img": "music-48",
   "src": "music-48"
 },
+{
+  "name": "49. Never Ending Song",
+  "artist": "Conan Gray",
+  "img": "music-49",
+  "src": "music-49"
+},
   ];
 
 export default allMusic;
