@@ -299,6 +299,12 @@ const allMusic = [
   "img": "music-50",
   "src": "music-50"
 },
+{
+  "name": "51. Shy Away",
+  "artist": "Twenty One Pilots",
+  "img": "music-51",
+  "src": "music-51"
+},
   ];
 
 export default allMusic;
