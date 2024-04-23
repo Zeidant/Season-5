@@ -311,6 +311,12 @@ const allMusic = [
   "img": "music-52",
   "src": "music-52"
 },
+{
+  "name": "53. Ma Vie",
+  "artist": "Kidd Keo",
+  "img": "music-53",
+  "src": "music-53"
+},
   ];
 
 export default allMusic;
