@@ -305,6 +305,12 @@ const allMusic = [
   "img": "music-51",
   "src": "music-51"
 },
+{
+  "name": "52. Last Valentines",
+  "artist": "PinkPantheress",
+  "img": "music-52",
+  "src": "music-52"
+},
   ];
 
 export default allMusic;
