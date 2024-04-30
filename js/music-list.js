@@ -353,6 +353,12 @@ const allMusic = [
   "img": "music-59",
   "src": "music-59"
 },
+{
+  "name": "60. TALK2ME",
+  "artist": "Mike Dimes",
+  "img": "music-60",
+  "src": "music-60"
+},
   ];
 
 export default allMusic;
