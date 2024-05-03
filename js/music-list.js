@@ -371,6 +371,12 @@ const allMusic = [
   "img": "music-62",
   "src": "music-62"
 },
+{
+  "name": "63. Dream of You",
+  "artist": "Camila Cabello",
+  "img": "music-63",
+  "src": "music-63"
+},
   ];
 
 export default allMusic;
