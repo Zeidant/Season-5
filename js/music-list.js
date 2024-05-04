@@ -377,6 +377,12 @@ const allMusic = [
   "img": "music-63",
   "src": "music-63"
 },
+{
+  "name": "64. it's not u it's me",
+  "artist": "Bea Miller",
+  "img": "music-64",
+  "src": "music-64"
+},
   ];
 
 export default allMusic;
