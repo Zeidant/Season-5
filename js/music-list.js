@@ -383,6 +383,12 @@ const allMusic = [
   "img": "music-64",
   "src": "music-64"
 },
+{
+  "name": "65. Boy With Luv",
+  "artist": "BTS",
+  "img": "music-65",
+  "src": "music-65"
+},
   ];
 
 export default allMusic;
