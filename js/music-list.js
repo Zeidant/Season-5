@@ -395,6 +395,12 @@ const allMusic = [
   "img": "music-66",
   "src": "music-66"
 },
+{
+  "name": "67. Better to Lie",
+  "artist": "benny blanco",
+  "img": "music-67",
+  "src": "music-67"
+},
   ];
 
 export default allMusic;
