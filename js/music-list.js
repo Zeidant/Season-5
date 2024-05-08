@@ -401,6 +401,12 @@ const allMusic = [
   "img": "music-67",
   "src": "music-67"
 },
+{
+  "name": "68. Pope Is a Rockstar",
+  "artist": "SALES",
+  "img": "music-68",
+  "src": "music-68"
+},
   ];
 
 export default allMusic;
