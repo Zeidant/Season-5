@@ -419,6 +419,12 @@ const allMusic = [
   "img": "music-70",
   "src": "music-70"
 },
+{
+  "name": "71. Babylon",
+  "artist": "5 Seconds of Summer",
+  "img": "music-71",
+  "src": "music-71"
+},
   ];
 
 export default allMusic;
