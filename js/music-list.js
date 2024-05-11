@@ -413,6 +413,12 @@ const allMusic = [
   "img": "music-69",
   "src": "music-69"
 },
+{
+  "name": "70. The Color Violet",
+  "artist": "Tory Lanez",
+  "img": "music-70",
+  "src": "music-70"
+},
   ];
 
 export default allMusic;
