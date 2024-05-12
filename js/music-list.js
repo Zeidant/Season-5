@@ -425,6 +425,12 @@ const allMusic = [
   "img": "music-71",
   "src": "music-71"
 },
+{
+  "name": "72. BARBIEZ",
+  "artist": "Fuerza Regida",
+  "img": "music-72",
+  "src": "music-72"
+},
   ];
 
 export default allMusic;
