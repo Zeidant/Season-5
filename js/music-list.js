@@ -431,6 +431,12 @@ const allMusic = [
   "img": "music-72",
   "src": "music-72"
 },
+  {
+    "name": "73. On My Own",
+    "artist": "Jaden",
+    "img": "music-73",
+    "src": "music-73"
+  },
   ];
 
 export default allMusic;
