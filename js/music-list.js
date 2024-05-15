@@ -437,6 +437,12 @@ const allMusic = [
     "img": "music-73",
     "src": "music-73"
   },
+  {
+    "name": "74. Forget Me Nots",
+    "artist": "Patrice Rushen",
+    "img": "music-74",
+    "src": "music-74"
+  },
   ];
 
 export default allMusic;
