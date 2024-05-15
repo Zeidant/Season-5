@@ -443,6 +443,12 @@ const allMusic = [
     "img": "music-74",
     "src": "music-74"
   },
+  {
+    "name": "75. Candy",
+    "artist": "Doja Cat",
+    "img": "music-75",
+    "src": "music-75"
+  },
   ];
 
 export default allMusic;
