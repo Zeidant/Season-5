@@ -449,6 +449,12 @@ const allMusic = [
     "img": "music-75",
     "src": "music-75"
   },
+  {
+    "name": "76. Don't Go Yet",
+    "artist": "Camila Cabello",
+    "img": "music-76",
+    "src": "music-76"
+  },
   ];
 
 export default allMusic;
