@@ -455,6 +455,12 @@ const allMusic = [
     "img": "music-76",
     "src": "music-76"
   },
+  {
+    "name": "77. en guerra",
+    "artist": "paopao",
+    "img": "music-77",
+    "src": "music-77"
+  },
   ];
 
 export default allMusic;
