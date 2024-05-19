@@ -467,6 +467,12 @@ const allMusic = [
     "img": "music-78",
     "src": "music-78"
   },
+  {
+    "name": "79. Aria Math",
+    "artist": "C418",
+    "img": "music-79",
+    "src": "music-79"
+  },
   ];
 
 export default allMusic;
