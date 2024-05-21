@@ -473,6 +473,12 @@ const allMusic = [
     "img": "music-79",
     "src": "music-79"
   },
+  {
+    "name": "80. psychofreak",
+    "artist": "Camila Cabello",
+    "img": "music-80",
+    "src": "music-80"
+  },
   ];
 
 export default allMusic;
