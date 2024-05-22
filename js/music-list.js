@@ -479,6 +479,12 @@ const allMusic = [
     "img": "music-80",
     "src": "music-80"
   },
+  {
+    "name": "81. MAMBO 23",
+    "artist": "Juan Luis Guerra 4.40",
+    "img": "music-81",
+    "src": "music-81"
+  },
   ];
 
 export default allMusic;
