@@ -485,6 +485,12 @@ const allMusic = [
     "img": "music-81",
     "src": "music-81"
   },
+  {
+    "name": "82. Ninety",
+    "artist": "Jaden",
+    "img": "music-82",
+    "src": "music-82"
+  },
   ];
 
 export default allMusic;
