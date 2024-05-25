@@ -491,6 +491,12 @@ const allMusic = [
     "img": "music-82",
     "src": "music-82"
   },
+  {
+    "name": "83. Bad Luck",
+    "artist": "Khalid",
+    "img": "music-83",
+    "src": "music-83"
+  },
   ];
 
 export default allMusic;
