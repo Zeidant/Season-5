@@ -503,6 +503,12 @@ const allMusic = [
     "img": "music-84",
     "src": "music-84"
   },
+  {
+    "name": "85. 2U",
+    "artist": "David Guetta",
+    "img": "music-85",
+    "src": "music-85"
+  },
   ];
 
 export default allMusic;
