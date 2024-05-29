@@ -515,6 +515,12 @@ const allMusic = [
     "img": "music-86",
     "src": "music-86"
   },
+  {
+    "name": "87. Amor de Lejos Remix",
+    "artist": "Baby Rasta & Gringo",
+    "img": "music-87",
+    "src": "music-87"
+  },
   ];
 
 export default allMusic;
