@@ -521,6 +521,12 @@ const allMusic = [
     "img": "music-87",
     "src": "music-87"
   },
+  {
+    "name": "88. Lovers on the Sun",
+    "artist": "David Guetta, Sam Martin",
+    "img": "music-88",
+    "src": "music-88"
+  },
   ];
 
 export default allMusic;
