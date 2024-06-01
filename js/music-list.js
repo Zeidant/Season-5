@@ -527,6 +527,12 @@ const allMusic = [
     "img": "music-88",
     "src": "music-88"
   },
+  {
+    "name": "9 (After Coachella)",
+    "artist": "Cashmere Cat, M\u00d8, SOPHIE",
+    "img": "music-89",
+    "src": "music-89"
+  },
   ];
 
 export default allMusic;
