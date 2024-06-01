@@ -528,11 +528,17 @@ const allMusic = [
     "src": "music-88"
   },
   {
-    "name": "9 (After Coachella)",
+    "name": "89. 9 (After Coachella)",
     "artist": "Cashmere Cat, M\u00d8, SOPHIE",
     "img": "music-89",
     "src": "music-89"
   },
+  {
+    "name": "90. Ashley",
+    "artist": "Halsey",
+    "img": "music-90",
+    "src": "music-90"
+  }
   ];
 
 export default allMusic;
